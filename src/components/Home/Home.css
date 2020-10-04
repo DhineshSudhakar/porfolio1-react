@@ -1,0 +1,63 @@
+.home{
+    max-width: 100vw;
+    background-image: url('https://www.softuvo.com/wp-content/uploads/2018/07/webdevelopment-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.home > h1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.name__line{
+    font-size: 80px;
+}
+
+.home .name{
+    color: lightgray;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(41, 34, 34);
+}
+
+.home__button{
+    margin-right: 20px !important;
+}
+
+.button__link{
+    text-decoration: none;
+    color: #333 !important;
+}
+
+
+@media only screen and (max-width: 800px){
+    .home{
+        text-align: center;
+        padding: 0 15%;
+        padding-top: 300px;
+    }
+    .home > h1{
+        font-size: 35px;
+    }
+
+    .name__line{
+        font-size: inherit;
+    }
+
+    .intro{
+        font-size: 20px;
+    }
+
+    .home__button{
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+}

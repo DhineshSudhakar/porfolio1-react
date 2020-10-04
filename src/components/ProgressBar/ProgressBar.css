@@ -1,0 +1,19 @@
+.progress-div {
+    background-color: lightgray;
+    border-radius: .5rem;
+    box-shadow: inset 1px 1px 3px #333;
+}
+
+.progress {
+    background-color: darkgray;
+    height: 15px;
+    border-radius: 1rem;
+    transition: 1s ease;
+    transition-delay: 0.5s;
+    box-shadow: 0.5px 0.5px 0.5px #111;
+     
+  }
+
+  @media only screen and (max-width: 800px){
+      
+  }

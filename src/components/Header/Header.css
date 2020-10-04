@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+
+.header{
+    width: 100%;
+    padding: 15px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.fa__icon{
+    display: none;
+}
+
+.header__logo{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header__dark{
+    background-color: #333;
+    transition: ease 0.5ms;
+}
+
+.header > nav{
+    width: 45%;
+}
+.header__navShow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__nav> li{
+    list-style: none;
+}
+
+.header__links{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header__links:focus{
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    transition-property: border-bottom;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+@media only screen and (max-width: 800px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .header__logoSection{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .fa__icon{
+        display: inline-block;
+    }
+
+    .header > nav{
+        width: 100%;
+    }
+    .header__navShow{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header__navHide{
+        display: none;
+    }
+
+    .header__navShow > li{
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+  }

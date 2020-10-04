@@ -1,0 +1,106 @@
+h2{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+.about{
+    width: 80%;
+    padding: 100px 10%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: lightgray;
+}
+
+.about__intro{
+    margin-bottom: 20px;
+}
+
+.avatorAndIntro{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile__pic{
+    width: 30%;
+}
+
+.profile__pic > img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 75px;
+}
+
+.about__content{
+    flex: 1;
+}
+
+.graduationAndExperience{
+    display: flex;
+    flex-direction: column;
+}
+
+.graduation{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.graduation__title{
+    width: 30%;
+    text-transform: uppercase;
+}
+
+.experience{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience__title{
+    width: 30%;
+}
+
+.details{
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px){
+    .about{
+        width: 90%;
+        padding: 300px 5%;
+        padding-bottom: 50px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .avatorAndIntro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile__pic{
+        width: 100%;
+    }
+
+    .profile__pic > img{
+        margin-bottom: 50px;
+    }
+
+    .graduation, .experience{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .graduation__title, .experience__title{
+        width: 100%;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+}
