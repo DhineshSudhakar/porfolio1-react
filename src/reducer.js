@@ -13,10 +13,10 @@ export const initialState = {
         },
         {
             id: 1112,
-            imageUrl: "/images/fb_messenger_clone.png",
-            title: "React Facebook messenger clone",
-            demoLink: "https://fb-messenger-clone-f6b8a.web.app/",
-            repoLink: "https://github.com/DhineshSudhakar/react-fbMessengerClone",
+            imageUrl: "/images/discord-clone.png",
+            title: "React Discord clone",
+            demoLink: "https://discord-clone-9611a.web.app/",
+            repoLink: "https://github.com/DhineshSudhakar/discord-clone",
         },
         {
             id: 1113,
@@ -41,7 +41,7 @@ export const initialState = {
         {
             id: 13,
             technology: "Javascript",
-            percent: 0.7
+            percent: 0.6
         },
         {
             id: 14,
@@ -50,22 +50,22 @@ export const initialState = {
         },
         {
             id: 15,
-            technology: "Node",
-            percent: 0.7
+            technology: "Node JS",
+            percent: 0.5
         },
         {
             id: 16,
             technology: "Git",
-            percent: 0.8
+            percent: 0.7
         },
         {
             id: 17,
             technology: "Firebase",
-            percent: 0.7
+            percent: 0.6
         },
         {
             id: 18,
-            technology: "Adobe XD Design",
+            technology: "Redux",
             percent: 0.5
         }
     ],
